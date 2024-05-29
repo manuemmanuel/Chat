@@ -7,7 +7,11 @@ class LoginPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Theme.of(context).colorScheme.background,
-      body: Column(),
+      body: Column(
+        children: [
+          Icon(Icons.message),
+        ],
+      ),
     );
   }
 }
